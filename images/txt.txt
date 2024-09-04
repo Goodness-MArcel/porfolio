@@ -1,0 +1,19 @@
+https://preview.colorlib.com/#busicol
+
+
+
+
+https://preview.colorlib.com/theme/glint/#top
+
+<section class="second">
+            <div class="imgbox">
+                <img src="./images/christian-velitchkov-mXz64B8-3h0-unsplash.jpg" alt="">
+            </div>
+            <div class="writeup-list">
+                <h3>the largest buisness expert</h3>
+                <p>These cases are perfectly simple and easy to <br> distinguish. In a free hour,<br>
+                    when our power of choice is untrammelled and <br> when nothing prevents <br>
+                    our being able to do what we like best.
+                </p>
+            </div>
+        </section>

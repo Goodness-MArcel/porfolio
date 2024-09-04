@@ -1,0 +1,373 @@
+
+
+@media (max-width:600px) and (max-width:900px) {
+    body{
+        overflow-x: hidden;
+
+    }
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    header{
+        height: 100vh;
+        background-position: center;
+        position: relative;
+    }
+    .crossbar{
+        padding: 1.4rem;
+        background-color: #4c4c4c;
+        position: relative;
+        top: 10px;
+        display: flex;
+        justify-content: end;
+        
+    }
+    .firstnav{
+        visibility: hidden;
+    }
+    .logo-con{
+        display: none;
+    }
+    li a{
+        font-size: 1.2rem;
+        text-transform: capitalize;
+    }
+    #nav{
+        background-color: #4c4c4c;
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 1s ease, padding-bottom 2s ease;
+        padding-bottom: 0;
+    }
+    .search-box,
+    .quote-box{
+        display: none;
+    }
+    .handburger{
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        width: 110px;
+        background-color: rgb(24, 23, 23);
+        border-radius: 7px;
+      
+    }
+    .menu-bar span{
+        font-size: 1.3rem;
+        color: white;
+    }
+    .menu {
+        font-size: 1.6rem;
+        font-weight: 600;
+        color: white;
+    }
+    #nav.toggle{
+        max-height: 200px; 
+        padding-bottom: 10px;
+        z-index: 10;
+    }
+    .hero-letter{
+        position: absolute;
+        top: 50%;
+        z-index: 1;
+        margin-left: 21px;
+        height: auto;
+        margin-bottom: 20px;
+    }
+    .hero-letter h3{
+        color: white;
+        font-family: "Poppins", sans-serif;
+        font-weight: 100;
+        font-size: 30px;
+        text-transform: capitalize;
+    }
+    .hero-letter p{
+        font-family: "Poppins", sans-serif;
+        font-size: 16px;
+        color: #d5d5d5;
+    }
+    .video_services_btn{
+        margin-top: 3rem;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+     .boxed_btn{
+        width: 60%;
+        color: white;
+        padding: 15px 37px;
+        text-decoration: none;
+        border-radius: 5px;
+        text-transform: capitalize;
+        background-color: #28ae60;
+    }
+    .boxed_btn_white{
+        width: 74%;
+        color: white;
+        font-size: 14px;
+        padding: 15px 37px;
+        border-radius: 5px;
+        text-decoration: none;
+        border: 2px solid white;
+        text-transform: capitalize;
+        font-family: "Poppins", sans-serif;
+    }
+    .boxed_btn_white i{
+        margin-right: 5px;
+    }
+    .first-section{
+        width: 90%;
+        margin: auto;
+        text-align: center
+
+    }
+    .first-section h3{
+        padding: 30px 0px;
+        text-transform: capitalize;
+        font-size: 30px;
+        color: #2c2c2c;
+        font-family: "Poppins", sans-serif;
+    }
+    .image-con{
+        width: 100%;
+        height: 50%;
+        position: relative;
+        margin-bottom: 20px;
+        overflow: hidden;
+    }
+    .image-con img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition:transform 0.5s ease;
+    }
+    .overlay{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: rgba(72, 72, 72, 0.4); 
+    }
+    .overlay h3{
+        color: white;
+        font-size: 20px;
+        text-transform: capitalize;
+        font-family: "Poppins", sans-serif;
+    }
+    .overlay ion-icon,
+     .overlay span{
+        color: white;
+        font-size: 30px;
+        font-weight: 200;
+    }
+    .overlay .overlay-con{
+        position: relative;
+        top: 30px;
+    }
+    .image-con:hover img{
+        transform: scale(1.3);
+    }
+    section .second{
+        border: thin solid red;
+    }
+    .second .imgbox{
+        width: 100%;
+        height: 50%;
+        margin-bottom: 40px;
+    }
+    .imgbox img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .writeup-list h3{
+        text-transform: capitalize;
+        font-size: 30px;
+        color: #2c2c2c;
+        font-family: "Poppins",sans-serif;
+        
+    }
+    .writeup-list{
+        margin-top: 35px;
+        width: 90%;
+        margin: auto;
+        height: fit-content;
+        margin-bottom:40px;
+    }
+    .writeup-list p{
+        font-family: "Poppins", sans-serif;
+        font-size: 16px;
+        color: #2f2e2e;
+    }
+    .writeup-list ul{
+        padding: 0;
+        list-style: none;
+        margin-bottom: 2rem;
+    }
+   
+    .writeup-list span ion-icon{
+        color: green;
+    }
+    .counter-section{
+        background-color: #f4f5f6;
+        height: auto;
+        padding: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .counter-section .firstcount{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .firstcount{
+        text-transform: capitalize;
+        font-family: "Poppins", sans-serif;
+    }
+    .firstcount h3{
+        font-size: 50px;
+        color: #1f1f1f;
+    }
+    .recent_work_section{
+        text-align: center;
+        padding-top: 35px;
+    }
+    .recent_work_section h3{
+        text-transform: capitalize;
+        font-family: "Poppins", sans-serif;
+    }
+    .recent_work_section p{
+        font-family: "Poppins", sans-serif;
+        text-align: center;
+        margin: auto;
+        padding-top: 10px;
+        padding-bottom: 25px;
+    }
+    .recent_work_container{
+        /* border: thin solid red; */
+    }
+    .first-work{
+        text-align: center;
+        text-decoration: none;
+        position: relative;
+    
+    }
+    .more-work{
+        padding: 14px 31px;
+    }
+    .more-work a{
+        border: 2px solid green;
+        padding: 14px 31px;
+        border-radius: 8px;
+        text-decoration: none;
+        color: #28ae60;
+        font-family: "Poppins", sans-serif;
+        transition: all 250ms ease-in-out;
+    }
+    .more-work a:hover{
+        border: none;
+        background-color: #28ae60;
+        color: white;
+    }
+    .work_con{
+        width: 90%;
+        height: 400px;
+        margin: auto;
+        position: relative;
+        margin-bottom: 10px;
+        overflow: hidden;
+    }
+    .work_con img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: all 1s ease-in-out;
+    }
+
+    .work_con:hover img{
+        transform: scale(1.2);
+    }
+   
+    .work_con .shadow{
+        position: absolute;
+        width: 100%;
+        transform: translateX(-330px);
+        top: 0;
+        height: 100%;
+        transition: 1s ease;
+        place-content: center;
+        text-align: center;
+    }
+    .work_con:hover .shadow{
+        transform: translateX(0);
+        background-color: rgba(11, 130, 61, 0.4);
+       
+    }
+    .work_con .shadow h3{
+        text-transform: capitalize;
+        font-family: "Poppins", sans-serif;
+        color: white;
+    }
+    #sub-section{
+        text-align: center;
+        place-content: center;
+        font-family: "Poppins", sans-serif;
+        color: white;
+        padding-top: 70px;
+        background-image: url(https://th.bing.com/th/id/R.ad3f70510773d6a49c22104353768101?rik=ygbNDGhkM%2fq1Ow&riu=http%3a%2f%2fyesofcorsa.com%2fwp-content%2fuploads%2f2016%2f12%2f4K-Black-Wallpaper-Widescreen.jpg&ehk=mRhJ8wJHai2zXM3QsBDEu9GvSfeAVbgi8N%2bxBuQuO%2fw%3d&risl=&pid=ImgRaw&r=0);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 30px;
+        padding-block: 4rem;
+    }
+
+    #sub-section .wrapper{
+        place-content: center;
+        text-align: center;
+        text-transform: capitalize;
+        width: 90%;
+        border: thin solid rgb(201, 198, 198);
+        height: 300px;
+        transition: all 1s ease;
+    }
+    .single-box ion-icon{
+        font-size: 2rem;
+    }
+    .wrapper-end{
+        padding-bottom: 70px;
+    }
+    #sub-section .wrapper:hover{
+        background-color: #28ae60;
+        border: none;
+    }
+    .landing-page h1,p{
+        font-family: "Poppins", sans-serif;
+        margin-left: 10px;
+    }
+
+    #carouselExampleSlidesOnly{
+        width: 95%;
+        margin: auto;
+    }
+    .beneth-image{
+        width: 90%;
+        margin: auto;
+    }
+    .beneth-image img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
